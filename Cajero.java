@@ -13,7 +13,7 @@ public class Cajero{
     {
      int cantidad, resta, b0=0, b1=0, b2=0, b3=0, b4=0, b5=0, b6=0, sw; /* b0=1000 b1= 2000 b2= 5000 b3= 10000 b4= 20000 b5= 50000 b6= 100000*/
      String acumulador_texto = "";
-     JOptionPane.showMessageDialog(null,"Bienvenido este algorito le ayudara a calcularar la cantidad de billetes necesarios para un retiro","ALGORITO CAJERO",1);
+     JOptionPane.showMessageDialog(null,"Bienvenido este algorito le ayudara a calcular la cantidad de billetes necesarios para un retiro","ALGORITO CAJERO",1);
      do
      {
         cantidad = Integer.parseInt(JOptionPane.showInputDialog(null,"Ingrese la cantidad a retirar","ALGORITO CAJERO",3));
